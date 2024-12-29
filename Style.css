@@ -1,0 +1,349 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI';
+}
+
+.container {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo img {
+    width: 190px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.container-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.headline1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    gap: 20px;
+}
+
+
+.headline2 {
+    margin-top: 22px;
+    font-size: 27px;
+    width: 74vw;
+    text-align: center;
+}
+
+.button2 {
+    background-color: #09a6bd;
+    border-radius: 8px;
+    color: rgb(235, 230, 230);
+    margin-top: 25px;
+    padding: 15px;
+    font-weight: 800;
+    border: none;
+}
+
+.container-end {
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+}
+
+.container-end img {
+    padding: 0px 20px;
+
+}
+
+.sapn-first {
+    font-size: 23px;
+    color: #222222;
+}
+
+.sapn-sec {
+    font-size: 15px;
+    color: #222222;
+}
+
+
+
+
+.grid {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 15px 134px;
+}
+
+
+
+.item {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.green {
+    background: #81c780 !important;
+}
+
+.lang-typle {
+    font-size: 11px;
+    padding-bottom: 16px;
+}
+
+
+.footer-head {
+    background-color: rgb(31, 29, 29);
+    width: vw ;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 35px 0px;
+}
+
+.b11 {
+    width: 450px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.footer-text2 {
+    color: white;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+
+.signup-box {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 250px;
+    width: 345px;
+    margin: 45px;
+    margin-top: 35px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signup-box span {
+    padding: 5px;
+    color: #00b6d1;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.signup-box p {
+    font-weight: 400;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.signup-box input {
+    height: 40px;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 2px;
+    border: 0.5px solid ;
+}
+
+.sign-btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.exe {
+    font-weight: 400;
+    padding: 80px;
+    padding-left: 220px;
+    color: white;
+    line-height: 36px;
+}
+
+.exe h2 {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.exe span {
+    color: #00b6d1;
+}
+
+
+
+
+
+
+.footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 70px 130px;
+    gap: 25px;
+    font-size: small;
+}
+
+.footerul ul :first-child {
+    font-family: 'Segoe UI';
+    padding: 16px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footerul ul {
+    list-style: none;
+}
+
+.footerul ul li {
+    padding: 3px;
+}
+
+
+.Subscribe p {
+    font-family: 'Segoe UI';
+    padding: 16px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.Subscribe span {
+    line-height: 18px;
+}
+
+
+
+.footerinput {
+    margin: 5px 0px;
+    padding-left: 7px;
+    width: 227px;
+    border-radius: 6px;
+    height: 41px;
+}
+
+.btn-footer {
+    width: 230px;
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: #00b6d1;
+    transition: box-shadow .15s ease-in-out;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+.footer-end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-end img {
+    width: 150px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.svgs {
+    width: 35px;
+    height: 35px;
+}
+
+
+.rights p {
+    font-size: small;
+    padding: 3px 220px;
+}
+
+.end {
+    height: 15vh;
+}

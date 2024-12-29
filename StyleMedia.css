@@ -1,0 +1,71 @@
+/* Your existing styles */
+
+@media only screen and (max-width: 768px) {
+    *{
+        margin: -5px;
+        padding: 0px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .headline1 {
+        font-size: 36px;
+        gap: 10px;
+    }
+
+    .headline2 {
+        font-size: 18px;
+        width: 90vw;
+    }
+
+    .button2 {
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .container-end {
+        margin-top: 60px;
+        width: 90vw;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .signup-box {
+        width: 90vw;
+        margin: 20px;
+    }
+
+    .exe {
+        padding: 40px;
+        padding-left: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    .footer2 {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .footer-end {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rights p {
+        padding: 3px 20px;
+    }
+
+    /* Add more styles or modify existing styles as needed for smaller screens */
+}
